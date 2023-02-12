@@ -27,7 +27,7 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: "12.x"
-          cache: 'gradle' // 1
+          cache: 'gradle'
       # 10   
       - uses: subosito/flutter-action@v2
         with:
